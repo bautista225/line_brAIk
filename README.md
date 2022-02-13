@@ -10,13 +10,13 @@ En concreto, la parte del proyecto que se presenta en este repositorio contine e
 
 ## Estructura 
 
-**procesar_video_ojo.py**. A partir de un conjunto de videos, crea una carpeta para cada video, una subcarpeta para cada segundo y almacena las 10 imágenes del ojo.
+1. **procesar_video_ojo.py**. A partir de un conjunto de videos, crea una carpeta para cada video, una subcarpeta para cada segundo y almacena las 10 imágenes del ojo.
 
-**crear_conjuntos_entrenamiento.ipynb**. A partir de las imágenes creadas, almacena el conjunto de datos y las etiquetas en ficheros .npy.
+2. **crear_conjuntos_entrenamiento.ipynb**. A partir de las imágenes creadas, almacena el conjunto de datos y las etiquetas en ficheros .npy.
 
-**modelo_line_braik.ipynb**. Carga el dataset, crea el modelo, lo entrena y muestra resultados.
+3. **modelo_line_braik.ipynb**. Carga el dataset, crea el modelo, lo entrena y muestra resultados.
 
-**demo_line_braik.ipynb**. A partir de un video, detecta los saltos de línea y estima la velocidad de lectura.
+4. **demo_line_braik.ipynb**. A partir de un video, detecta los saltos de línea y estima la velocidad de lectura.
 
 **x_set_left.npy**. Dataset del ojo izquierdo.
 
