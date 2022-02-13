@@ -18,7 +18,7 @@ En concreto, la parte del proyecto que se presenta en este repositorio contine e
 
 ### Preprocesamiento de datos
 
-Módulo procesar_video_ojo.py
+Módulo `procesar_video_ojo.py`
 
 A partir de un conjunto de videos, crea una carpeta para cada video, una subcarpeta para cada segundo y almacena las 10 imágenes (frames) del ojo.
 
@@ -36,7 +36,7 @@ videos_a_analizar = [
 
 ### Generación de Dataset
 
-Módulo crear_conjuntos_entrenamiento.ipynb
+Módulo `crear_conjuntos_entrenamiento.ipynb`
 
 A partir de las imágenes creadas, almacena el conjunto de datos y las etiquetas en ficheros numpy array .npy
 
@@ -54,7 +54,7 @@ parent_folder = "/Users/equipo-ojo/Documents/OJO/video_inputs/*"
 
 ### Entrenamiento del modelo
 
-Módulo modelo_line_braik.ipynb
+Módulo `modelo_line_braik.ipynb`
 
 Carga el dataset, crea y entrena el modelo, y muestra resultados.
 
@@ -72,7 +72,7 @@ y_set_l = load('/path/Saturdays AI - Equipo ojo/dataset/y_set_left.npy')  # Etiq
 
 ### Demo detección de saltos de línea
 
-Módulo demo_line_braik.ipynb
+Módulo `demo_line_braik.ipynb`
 
 A partir de un video, detecta los saltos de línea y estima la velocidad de lectura.
 
