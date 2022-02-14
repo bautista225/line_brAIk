@@ -70,9 +70,9 @@ y_set_l = load('/path/Saturdays AI - Equipo ojo/dataset/y_set_left.npy')  # Etiq
 
 ```
 
-### Demo detección de saltos de línea
+### Demo detección de saltos de línea con vídeo local
 
-Módulo `demo_line_braik.ipynb`
+Módulo `demo_line_braik_localvideo.ipynb`
 
 A partir de un video, detecta los saltos de línea y estima la velocidad de lectura.
 
@@ -86,5 +86,18 @@ now = datetime.now()
 video_path = "/path/Saturdays AI - Equipo ojo/Videos/v_persona_01.mp4"  # Ruta al vídeo a procesar.
 ai_model_path = '/path/Saturdays AI - Equipo ojo/modeloEntrenado'       # Ruta al modelo entrenado.
 video_output_path = f'/path/Saturdays AI - Equipo ojo/video_results/video_output-{now.strftime("%d-%m-%Y_%H-%M-%S")}.mp4'
+
+```
+
+### Demo detección de saltos de línea en tiempo real con webcam
+
+Módulo `demo_line_braik_realtime.py`
+
+A partir de la webcam, detecta los saltos de línea y estima la velocidad de lectura en tiempo real.
+
+```python
+
+# Datos de entrada
+ai_model_path = '/path/Saturdays AI - Equipo ojo/modeloEntrenado'       # Ruta al modelo entrenado.
 
 ```
