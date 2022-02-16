@@ -54,12 +54,14 @@ parent_folder = "/Users/equipo-ojo/Documents/OJO/video_inputs/*"
 
 ### Entrenamiento del modelo
 
+Debido a las limitaciones de hardware en Tensorflow para ejecutar modelos con el formato de entrada NHWC (n_samples, height, width, channels) solamente en entornos GPU Nvidia CUDA, se ha desarrollado la generación de los modelos según su formato de entrada.
+
 #### Entorno con GPU
 
 Módulo `train_model_line_braik_channels_last.ipynb`
 
 > Éste modelo necesitará su ejecución en un entorno GPU debido a la arquitectura de entrada utilizada: 
-> NHWC (n_samples, height, width, channels) la cual sólo es compatible con entornos GPU Nvidia CUDA).
+> NHWC (n_samples, height, width, channels) la cual sólo es compatible con entornos GPU Nvidia CUDA.
 > Para utilizar el modelo mediante CPU, utilizar el módulo `train_model_line_braik_channels_first.ipynb`
 > que utiliza la arquitectura NCHW (n_samples, channels, height, width).
 
