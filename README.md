@@ -56,7 +56,7 @@ parent_folder = "/Users/equipo-ojo/Documents/OJO/video_inputs/*"
 
 #### Entorno con GPU
 
-Módulo `train_model_line_braik_for_GPU.ipynb`
+Módulo `train_model_line_braik_channels_last.ipynb`
 
 > Éste modelo necesitará su ejecución en un entorno GPU debido a la arquitectura de entrada utilizada: 
 > NHWC (n_samples, height, width, channels) la cual sólo es compatible con entornos GPU Nvidia CUDA).
@@ -79,7 +79,7 @@ y_set_l = load('/path/Saturdays AI - Equipo ojo/dataset/y_set_left.npy')  # Etiq
 
 #### Entorno sin GPU
 
-Módulo `train_model_line_braik_for_CPU.ipynb`
+Módulo `train_model_line_braik_channels_first.ipynb`
 
 > Este entorno produce una modificación en el conjunto de entrada
 > para pasar el input de la arquitectura NHWC (n_samples, height, width, channels)
