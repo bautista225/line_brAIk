@@ -136,7 +136,7 @@ ai_model_path = '/path/Saturdays AI - Equipo ojo/modeloEntrenado'       # Ruta a
 
 ###Código de los modelos entrenados
 
-Mdelos entrenados en formato channel_first(input shape 10,80,80) y channel_last(input shape 80,80,10):
+Mdelos entrenados en formato channel_first (input shape 10,80,80) y channel_last (input shape 80,80,10):
 https://drive.google.com/drive/folders/1P7QrJeB2OshOMQR-j8c7Xke0S11CuLtb?usp=sharing
 
 El modelo channel last funciona con cpu y el channel first solo con gpu.
