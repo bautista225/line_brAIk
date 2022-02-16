@@ -54,7 +54,37 @@ parent_folder = "/Users/equipo-ojo/Documents/OJO/video_inputs/*"
 
 ### Entrenamiento del modelo
 
-Módulo `modelo_line_braik.ipynb`
+#### Entorno con GPU
+
+Módulo `train_model_line_braik_for_GPU.ipynb`
+
+> Éste modelo necesitará su ejecución en un entorno GPU debido a la arquitectura de entrada utilizada: 
+> NHWC (n_samples, height, width, channels) la cual sólo es compatible con entornos GPU Nvidia CUDA).
+> Para utilizar el modelo mediante CPU, utilizar el módulo `train_model_line_braik_for_CPU.ipynb`
+> que utiliza la arquitectura NCHW (n_samples, channels, height, width).
+
+Carga el dataset, crea y entrena el modelo, y muestra resultados.
+
+```python
+
+# Datos de entrada
+
+# Cargamos el conjunto de datos de entrenamiento desde un fichero npy.
+x_set_r = load('/path/Saturdays AI - Equipo ojo/dataset/x_set_right.npy') # Dataset del ojo derecho.
+y_set_r = load('/path/Saturdays AI - Equipo ojo/dataset/y_set_right.npy') # Etiquetas del ojo derecho.
+x_set_l = load('/path/Saturdays AI - Equipo ojo/dataset/x_set_left.npy')  # Dataset del ojo izquierdo.
+y_set_l = load('/path/Saturdays AI - Equipo ojo/dataset/y_set_left.npy')  # Etiquetas del ojo izquierdo.
+
+```
+
+#### Entorno sin GPU
+
+Módulo `train_model_line_braik_for_CPU.ipynb`
+
+> Este entorno produce una modificación en el conjunto de entrada
+> para pasar el input de la arquitectura NHWC (n_samples, height, width, channels)
+> a la arquitectura NCHW (n_samples, channels, height, width)
+> ya que la primera posee limitaciones de hardware (sólo compatible con entornos GPU Nvidia CUDA).
 
 Carga el dataset, crea y entrena el modelo, y muestra resultados.
 
