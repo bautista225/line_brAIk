@@ -60,7 +60,7 @@ Módulo `train_model_line_braik_channels_last.ipynb`
 
 > Éste modelo necesitará su ejecución en un entorno GPU debido a la arquitectura de entrada utilizada: 
 > NHWC (n_samples, height, width, channels) la cual sólo es compatible con entornos GPU Nvidia CUDA).
-> Para utilizar el modelo mediante CPU, utilizar el módulo `train_model_line_braik_for_CPU.ipynb`
+> Para utilizar el modelo mediante CPU, utilizar el módulo `train_model_line_braik_channels_first.ipynb`
 > que utiliza la arquitectura NCHW (n_samples, channels, height, width).
 
 Carga el dataset, crea y entrena el modelo, y muestra resultados.
