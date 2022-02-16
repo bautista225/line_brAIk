@@ -1,4 +1,4 @@
-# Line BrAIk | Estimación de la velocidad de lectura con Keras y OpenCV
+# Line BrAIk | Creación de un modelo para la estimación de la velocidad de lectura
 
 ## Autores
 * Daniel Bagán Martinez
