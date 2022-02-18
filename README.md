@@ -1,5 +1,7 @@
 # Line BrAIk | Creación de un modelo para la estimación de la velocidad de lectura
 
+<img height="28px" src="http://ForTheBadge.com/images/badges/built-with-love.svg"> <a href="https://medium.com/@danibagan13/creaci%C3%B3n-de-un-modelo-para-la-estimaci%C3%B3n-de-la-velocidad-de-lectura-19e456eff73a"><img height="28px" src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white"></a>
+
 ## Autores
 * Daniel Bagán Martinez
 * Aarón García Pitarch
