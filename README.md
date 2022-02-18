@@ -12,7 +12,7 @@ Con este proyecto se pretende crear una herramienta de soporte al estudio o a la
 
 En concreto, la parte del proyecto que se presenta en este repositorio contine el proceso para crear el **modelo encargado de estimar la productividad** del estudiante, usando como magnitud la **tasa de líneas leídas por unidad de tiempo**.
 
-![Captura de pantalla 2022-02-13 a las 20 32 31](https://user-images.githubusercontent.com/25453699/153773790-7169b611-b279-4734-a307-ae9974a81cc6.png)
+![1_yPQVddKPoXzGLWD3e7PqFA](https://user-images.githubusercontent.com/25453699/154657495-a4b3e848-bea8-4d7a-92a2-f7fb540823ea.gif)
 
 ## Partes del proyecto
 
